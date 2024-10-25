@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+  font-family: "Manrope", sans-serif;
+  transition: all ease-in-out 0.1s;
+}
+
+#themeButton{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.nav-item:hover{
+  font-weight: bolder;
+  
+}
+
+.carousel-item {
+  height: 400px; 
+}
+
+.carousel-item img {
+  height: 100%;
+  width: auto; 
+}
+
+#Weather-card{
+  position: sticky;
+  top: 10%;
+
+}
+
+#carouselExampleControls{
+  background-image: url(https://s3.envato.com/files/207977474/primag.jpg);
+  background-position: center;  
+  background-size: cover;
+}
+
+.dark-mode{
+  background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg);
+  background-position: center;
+  /* background-size: cover; */
+}
+#Navbar{
+  position:sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.addBox{
+  position: sticky;
+  top: 55%;
+  border-radius: 0px;
+}
+
+
+@media (max-width : 780px) {
+
+  #box{
+  flex-direction: column-reverse;
+  }
+  
+}
+
+
