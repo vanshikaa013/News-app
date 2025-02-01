@@ -55,7 +55,7 @@ const Home = () => {
           {!allNews ? (
             <h1 className="text-center display-4 text-secondary">Loading...</h1>
           ) : (
-            allNews.map((news, index) => <NewsCard   key={index} news={news} />)
+            allNews?.map((news, index) => <NewsCard   key={index} news={news} />)
           )}
         </div>
 
